@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="AI Sentiment Analysis Banner" width="100%"/>
+  <img src="assets/banner_new.png" alt="AI Sentiment Analysis Banner" width="100%"/>
 </p>
 
 # 🧠 Sentiment Analysis with LSTM, ULMFiT, and BERT
