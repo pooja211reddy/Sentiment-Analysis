@@ -92,6 +92,32 @@ A transformer-based model fine-tuned for sentiment classification.
 | BERT | 2e-5 | 8 | 1 | 128 | Default | AdamW |
 
 ---
+## ▶️ How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/sentiment-analysis.git
+cd sentiment-analysis
+```
+
+---
+
+
+## 🖼️ Visualizations
+
+The project includes:
+
+- Training vs Validation Loss curves
+- Model comparison bar chart
+- Confusion matrix
+- Normalized confusion matrix
+- Accuracy / Precision / Recall / F1 comparison
+<p align="center">
+  <img src="assets/output.png" width="700"/>
+</p>
+
+---
 
 ## 📊 Final Results
 
@@ -110,6 +136,7 @@ A transformer-based model fine-tuned for sentiment classification.
 - **LSTM showed slower convergence** and a higher generalization gap.
 - **BERT generalized best**, with the lowest train-validation loss gap.
 - Transformer-based architectures are more effective for sentiment classification than traditional recurrent models.
+- Higher computational cost compared to LSTM models
 
 ---
 
@@ -130,26 +157,15 @@ A transformer-based model fine-tuned for sentiment classification.
 - Minimal generalization gap.
 - Best convergence and stability.
 
----
 
-## 🖼️ Visualizations
-
-The project includes:
-
-- Training vs Validation Loss curves
-- Model comparison bar chart
-- Confusion matrix
-- Normalized confusion matrix
-- Accuracy / Precision / Recall / F1 comparison
-<p align="center">
-  <img src="assets/output.png" width="700"/>
-</p>
 ---
 
 ## 💬 Streamlit App
 
 A real-time sentiment prediction app is included.
 
+### 📊 Dashboard UI
+![App Screenshot](assets/dashboard.png)
 ### Features
 
 - Clean modern UI
@@ -166,14 +182,11 @@ A real-time sentiment prediction app is included.
 |------------------------------------|-------------------|
 | "I love this product!"             | 😊 **Positive**   |
 | "This is the worst experience ever." | 😡 **Negative**   |
-| "Not bad, could be better."        | 😐 **Neutral-ish** |
 
 
----
-## ▶️ How to Run
 
-### 1. Clone the repository
 
-```bash
-git clone https://github.com/your-username/sentiment-analysis.git
-cd sentiment-analysis
+## 👤 Author
+
+- Pooja Reddy Nedhunuri
+- Capstone Final Project
