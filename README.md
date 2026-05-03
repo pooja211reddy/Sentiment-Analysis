@@ -141,7 +141,9 @@ The project includes:
 - Confusion matrix
 - Normalized confusion matrix
 - Accuracy / Precision / Recall / F1 comparison
-
+<p align="center">
+  <img src="assets/output.png" width="700"/>
+</p>
 ---
 
 ## 💬 Streamlit App
@@ -158,13 +160,15 @@ A real-time sentiment prediction app is included.
 - BERT-powered inference
 
 ---
-💻 Example Predictions
-Input Text	Prediction
-"I love this product!"	😊 Positive
-"This is the worst experience ever."	😡 Negative
-"Not bad, could be better."	Neutral-ish
-📉 Visualizations Included
-Training vs Validation Loss graphs
+## 💻 Example Predictions
+
+| Input Text                          | Prediction        |
+|------------------------------------|-------------------|
+| "I love this product!"             | 😊 **Positive**   |
+| "This is the worst experience ever." | 😡 **Negative**   |
+| "Not bad, could be better."        | 😐 **Neutral-ish** |
+
+
 ---
 ## ▶️ How to Run
 
