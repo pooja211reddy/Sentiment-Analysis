@@ -18,11 +18,7 @@ The final model is deployed through a real-time **Streamlit Sentiment Analysis A
 ## 🚀 Project Highlights
 
 - End-to-end sentiment analysis pipeline
-- Same IMDb dataset used for fair comparison
 - Text preprocessing, tokenization, and padding
-- Custom LSTM baseline model
-- ULMFiT fine-tuning using AWD-LSTM
-- BERT WordPiece tokenizer and supervised fine-tuning
 - Accuracy, Precision, Recall, F1-score comparison
 - Convergence and generalization analysis
 - Training vs validation loss visualization
@@ -80,7 +76,7 @@ A transformer-based model fine-tuned for sentiment classification.
 
 **Key characteristics:**
 
-- Uses WordPiece tokenization
+- Uses WordPiece tokenization and supervised fine-tuning
 - Bidirectional contextual understanding
 - Fast convergence
 - Best overall performance
@@ -162,7 +158,14 @@ A real-time sentiment prediction app is included.
 - BERT-powered inference
 
 ---
-
+💻 Example Predictions
+Input Text	Prediction
+"I love this product!"	😊 Positive
+"This is the worst experience ever."	😡 Negative
+"Not bad, could be better."	Neutral-ish
+📉 Visualizations Included
+Training vs Validation Loss graphs
+---
 ## ▶️ How to Run
 
 ### 1. Clone the repository
