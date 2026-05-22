@@ -6,8 +6,8 @@ import torch.nn.functional as F
 # ========================
 # Load Model
 # ========================
-model_path = "/Users/Pooja/Documents/capstone_projects/projects/Sentiment analysis/bert_model"
 
+model_path = "distilbert-base-uncased-finetuned-sst-2-english"
 model = AutoModelForSequenceClassification.from_pretrained(model_path)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
