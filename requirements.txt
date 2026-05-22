@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+plotly
+joblib
+torch
+transformers
+datasets
+evaluate
+accelerate
+safetensors
